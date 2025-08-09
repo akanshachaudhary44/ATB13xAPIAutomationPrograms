@@ -1,4 +1,26 @@
 package com.aakansha.ex_01_RA_Concepts;
 
 public class APITesting_Lab01_NP {
+    public void step1()
+    {
+        System.out.println("Step 1");
+    }
+
+    public void step2()
+    {
+        System.out.println("Step 2");
+    }
+    public void step3(String param1)
+    {
+        System.out.println("Step 3");
+    }
+
+    public static void main(String[] args)
+    {
+        APITesting_Lab01_NP nbp = new APITesting_Lab01_NP();
+        nbp.step1();
+        nbp.step2();
+        nbp.step3("Pramod");
+    }
+
 }
